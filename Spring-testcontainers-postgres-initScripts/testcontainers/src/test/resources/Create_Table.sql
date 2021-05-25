@@ -1,0 +1,8 @@
+DROP TABLE if exists person;
+
+CREATE TABLE person (
+id SERIAL PRIMARY KEY,
+firstname VARCHAR(255) DEFAULT NULL,
+lastname VARCHAR(255) DEFAULT NULL,
+mail VARCHAR(255) DEFAULT NULL
+);
